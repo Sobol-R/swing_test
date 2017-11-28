@@ -3,13 +3,13 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class MainForm {
-    private JButton НАЖМИНАМЕНЯButton;
+    private JButton clickMeButton;
     public JPanel rootPanel;
-    private JTextField textField1;
+    public JTextField textField1;
     private JTextField textField2;
 
     public MainForm() {
-        НАЖМИНАМЕНЯButton.addActionListener(new ActionListener() {
+        clickMeButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // ЗДЕСЬСЬСЬСЬСЬС
