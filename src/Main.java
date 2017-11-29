@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         // создаём окно, параметр title - заголовок
-        JFrame mainFrame = new JFrame("Ахахахаахахахахаахххх");
+        JFrame mainFrame = new JFrame("Калькулятор");
         // завершаем приложение, если закрыли окно
         mainFrame.setDefaultCloseOperation(EXIT_ON_CLOSE);
         // создаём главную форму
